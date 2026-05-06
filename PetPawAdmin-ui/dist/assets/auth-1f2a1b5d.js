@@ -1,0 +1,1 @@
+import{r as t}from"./request-85de5390.js";import"./index-1f34fe23.js";import"./app-df9c0881.js";const s={login:r=>t.post("/auth/login",r),logout:()=>t.post("/auth/logout"),getUserInfo:()=>t.get("/auth/user"),refreshToken:()=>t.post("/auth/refresh"),aesTest:()=>t.get("/auth/aes-test")};export{s as authApi};

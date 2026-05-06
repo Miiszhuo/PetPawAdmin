@@ -1,0 +1,1 @@
+import{aq as n,r as a}from"./index-1f34fe23.js";const u=n("app",()=>{const t=a(!1),o=a(!1),s=a("light");return{sidebarCollapsed:t,loading:o,theme:s,toggleSidebar:()=>{t.value=!t.value},setLoading:e=>{o.value=e},setTheme:e=>{s.value=e,document.documentElement.setAttribute("data-theme",e)}}});export{u};
